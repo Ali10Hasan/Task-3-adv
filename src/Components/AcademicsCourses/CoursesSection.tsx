@@ -4,32 +4,32 @@ import styles from "./Courses.module.css"
 
 const CoursesCardInfo=[
     {
-        image:"/Task-2-adv/Courses1.png",
+        image:"/Task-3-adv/Courses1.png",
         title:"Language Arts",
         desc:"Reading, writing, storytelling, and communication skills."
     },
     {
-        image:"/Task-2-adv/Courses2.png",
+        image:"/Task-3-adv/Courses2.png",
         title:"Mathematics",
         desc:"Number sense, basic operations, problem-solving, and logic."
     },
     {
-        image:"/Task-2-adv/Courses3.png",
+        image:"/Task-3-adv/Courses3.png",
         title:"Science",
         desc:"Exploring the natural world through hands-on experiments and investigations."
     },
     {
-        image:"/Task-2-adv/Courses4.png",
+        image:"/Task-3-adv/Courses4.png",
         title:"Social Studies",
         desc:"Cultivating an understanding of diverse cultures and communities."
     },
     {
-        image:"/Task-2-adv/Courses5.png",
+        image:"/Task-3-adv/Courses5.png",
         title:"Arts and Crafts",
         desc:"Encouraging creativity through various art forms and crafts."
     },
     {
-        image:"/Task-2-adv/Courses6.png",
+        image:"/Task-3-adv/Courses6.png",
         title:"Physical Education",
         desc:"Promoting physical fitness, coordination, and teamwork."
     },

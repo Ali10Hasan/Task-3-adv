@@ -4,37 +4,37 @@ import TestimonialsCard from "./TestimonialsCard";
 
 const TestimonialsCardInfo = [
   {
-    image: "/Task-2-adv/Profile Container1.png",
+    image: "/Task-3-adv/Profile Container1.png",
     name: "Jennifer B",
-    stars: "/Task-2-adv/evalution.png",
+    stars: "/Task-3-adv/evalution.png",
     paragraph:
       "Little Learners Academy has been a second home for my child. The caring staff and engaging programs have made her excited to go to school every day!",
   },
   {
-    image: "/Task-2-adv/Profile Container2.png",
+    image: "/Task-3-adv/Profile Container2.png",
     name: "David K",
-    stars: "/Task-2-adv/evalution.png",
+    stars: "/Task-3-adv/evalution.png",
     paragraph:
       "Choosing Little Learners Academy for my daughter was the best decision. She has thrived in their nurturing and stimulating environment.",
   },
   {
-    image: "/Task-2-adv/Profile Container3.png",
+    image: "/Task-3-adv/Profile Container3.png",
     name: "Emily L",
-    stars: "/Task-2-adv/evalution.png",
+    stars: "/Task-3-adv/evalution.png",
     paragraph:
       "My son's social and academic growth has been remarkable since joining Little Learners Academy. I am grateful for the supportive and dedicated teachers.",
   },
   {
-    image: "/Task-2-adv/Profile Container2.png",
+    image: "/Task-3-adv/Profile Container2.png",
     name: "Ali H",
-    stars: "/Task-2-adv/evalution.png",
+    stars: "/Task-3-adv/evalution.png",
     paragraph:
       "My son's social and academic growth has been remarkable since joining Little Learners Academy. I am grateful for the supportive and dedicated teachers.",
   },
   {
-    image: "/Task-2-adv/Profile Container3.png",
+    image: "/Task-3-adv/Profile Container3.png",
     name: "Lojen L",
-    stars: "/Task-2-adv/evalution.png",
+    stars: "/Task-3-adv/evalution.png",
     paragraph:
       "Choosing Little Learners Academy for my daughter was the best decision. She has thrived in their nurturing and stimulating environment.",
   },
@@ -85,7 +85,7 @@ const TestimonialsSlider = () => {
       
         onClick={onBack}
       >
-        <img src="/Task-2-adv/leftArrow.png" alt="Previous" />
+        <img src="/Task-3-adv/leftArrow.png" alt="Previous" />
       </button>
 
       <div className={styles.SliderWindow}>
@@ -117,7 +117,7 @@ const TestimonialsSlider = () => {
        
         onClick={onNext}
       >
-        <img src="/Task-2-adv/rightArrow.png" alt="Next" />
+        <img src="/Task-3-adv/rightArrow.png" alt="Next" />
       </button>
     </div>
   );

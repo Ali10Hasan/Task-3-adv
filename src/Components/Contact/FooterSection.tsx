@@ -3,13 +3,13 @@ import "./Contact.css"
 import FooterBottom from "./FooterBottom";
 const DataTop = {
   brand: {
-    logo: "/Task-2-adv/LogoFooter.png",
+    logo: "/Task-3-adv/LogoFooter.png",
     description:
       "We believe in the power of play to foster creativity, problem-solving skills, and imagination.",
     contacts: [
-      { icon: "/Task-2-adv/email.png", text: "hello@littlelearners.com" },
-      { icon: "/Task-2-adv/phone.png", text: "+91 91813 23 2309" },
-      { icon: "/Task-2-adv/location.png", text: "Somewhere in the World" },
+      { icon: "/Task-3-adv/email.png", text: "hello@littlelearners.com" },
+      { icon: "/Task-3-adv/phone.png", text: "+91 91813 23 2309" },
+      { icon: "/Task-3-adv/location.png", text: "Somewhere in the World" },
     ],
   },
 
@@ -41,7 +41,7 @@ const DataTop = {
 const DataBottom={
     policies: ["Terms of Service", "Privacy Policy", "Cookie Policy"],
 
-  socials: ["/Task-2-adv/face.png", "/Task-2-adv/Twitter.png", "/Task-2-adv/LinkedIn.png"],
+  socials: ["/Task-3-adv/face.png", "/Task-3-adv/Twitter.png", "/Task-3-adv/LinkedIn.png"],
 
   copyright:
     "Copyright © [2023] Little Learners Academy. All rights reserved.",

@@ -29,7 +29,7 @@ const NavMenu = ({ logo, NavElemnets }: NavMenuProps) => {
         </div>
 
         <div className={styles.BarsIcon} onClick={() => setShow(!show)}>
-          <img src="/Task-2-adv/menu.png" alt="" />
+          <img src="/Task-3-adv/menu.png" alt="" />
         </div>
       </div>
     </div>

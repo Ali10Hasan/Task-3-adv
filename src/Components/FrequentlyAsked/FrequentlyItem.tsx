@@ -16,7 +16,7 @@ const FrequentlyItem = ({question,answer,isOpen,onToggle}:FreqDataProps) => {
                 </div>
                 <div className={styles.icon}>
                     
-               <img src={isOpen?"/Task-2-adv/Decreament.png":"/Task-2-adv/increament.png"} alt="" onClick={onToggle} />
+               <img src={isOpen?"/Task-3-adv/Decreament.png":"/Task-3-adv/increament.png"} alt="" onClick={onToggle} />
                     
                 
                 </div>

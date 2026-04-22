@@ -32,8 +32,8 @@ const NavMenue=[
 const NavBar = () => {
   return (
     <div>
-        <TopBar Text="Admission is Open, Grab your seat now" icon='/Task-2-adv/Arrow.png'/>
-        <NavMenu logo='/Task-2-adv/Logo.png' NavElemnets={NavMenue}/>
+        <TopBar Text="Admission is Open, Grab your seat now" icon='/Task-3-adv/Arrow.png'/>
+        <NavMenu logo='/Task-3-adv/Logo.png' NavElemnets={NavMenue}/>
     </div>
   )
 }

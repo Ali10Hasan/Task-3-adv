@@ -4,42 +4,42 @@ import AwardCard from "./AwardCard";
 
 const AwardSliderInfo = [
   {
-    icone: "/Task-2-adv/SliderIcone3.png",
+    icone: "/Task-3-adv/SliderIcone3.png",
     title: "Environmental Stewardship Award",
     desc: "Presented by the National Association for the Education of Young Children (NAEYC) in recognition of Little Learners Academy's commitment to delivering exceptional early childhood education and fostering a nurturing learning environment.",
   },
   {
-    icone: "/Task-2-adv/SliderIcone2.png",
+    icone: "/Task-3-adv/SliderIcone2.png",
     title: "Innovative STEAM Education Award",
     desc: "Awarded by the Education Excellence Association for our pioneering efforts in introducing innovative STEAM programs that ignite creativity and critical thinking in young learners.",
   },
   {
-    icone: "/Task-2-adv/SliderIcone1.png",
+    icone: "/Task-3-adv/SliderIcone1.png",
     title: "Environmental Stewardship Award",
     desc: "Received from the Green Earth Society for our dedication to environmental education, sustainable practices, and fostering a love for nature in our students.",
   },
   {
-    icone: "/Task-2-adv/SliderIcone1.png",
+    icone: "/Task-3-adv/SliderIcone1.png",
     title: "Environmental Stewardship Award",
     desc: "Received from the Green Earth Society for our dedication to environmental education, sustainable practices, and fostering a love for nature in our students.",
   },
   {
-    icone: "/Task-2-adv/SliderIcone1.png",
+    icone: "/Task-3-adv/SliderIcone1.png",
     title: "Environmental Stewardship Award",
     desc: "Received from the Green Earth Society for our dedication to environmental education, sustainable practices, and fostering a love for nature in our students.",
   },
   {
-    icone: "/Task-2-adv/SliderIcone1.png",
+    icone: "/Task-3-adv/SliderIcone1.png",
     title: "Environmental Stewardship Award",
     desc: "Received from the Green Earth Society for our dedication to environmental education, sustainable practices, and fostering a love for nature in our students.",
   },
   {
-    icone: "/Task-2-adv/SliderIcone1.png",
+    icone: "/Task-3-adv/SliderIcone1.png",
     title: "Environmental Stewardship Award",
     desc: "Received from the Green Earth Society for our dedication to environmental education, sustainable practices, and fostering a love for nature in our students.",
   },
   {
-    icone: "/Task-2-adv/SliderIcone1.png",
+    icone: "/Task-3-adv/SliderIcone1.png",
     title: "Environmental Stewardship Award",
     desc: "Received from the Green Earth Society for our dedication to environmental education, sustainable practices, and fostering a love for nature in our students.",
   },
@@ -97,8 +97,8 @@ const AwardSlider = () => {
       </div>
 
       <div className={styles.btn}>
-        <img onClick={onBack} src="/Task-2-adv/leftArrow.png" alt="Previous" />
-        <img onClick={onNext} src="/Task-2-adv/rightArrow.png" alt="Next" />
+        <img onClick={onBack} src="/Task-3-adv/leftArrow.png" alt="Previous" />
+        <img onClick={onNext} src="/Task-3-adv/rightArrow.png" alt="Next" />
       </div>
     </div>
   );

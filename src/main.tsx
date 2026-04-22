@@ -27,7 +27,7 @@ const routes=createBrowserRouter([
         path:"academics"
       }
     ]
-}],{basename:"/Task-2-adv/"})
+}],{basename:"/Task-3-adv/"})
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <RouterProvider router={routes}/>
