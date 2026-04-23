@@ -40,8 +40,8 @@ const RoomsCard = ({images,roomFilter,description}:RoomsCardProps) => {
                 <div className={styles.roomFilter}>
                     <h2>{roomFilter}</h2>
                     <div className={styles.ArrowBtn}>
-                        <img src="/Task-2-adv/leftArrow.png" alt="" onClick={onBack} />
-                        <img src="/Task-2-adv/rightArrow.png" alt="" onClick={onNext} />
+                        <img src="/Task-3-adv/leftArrow.png" alt="" onClick={onBack} />
+                        <img src="/Task-3-adv/rightArrow.png" alt="" onClick={onNext} />
                     </div>
                 </div>
                 <div className={styles.description}>
