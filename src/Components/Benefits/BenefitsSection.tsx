@@ -9,32 +9,32 @@ export interface BenefitsCardType{
 }
 const BenefitsCardInfo:Array<BenefitsCardType>=[
   {
-    icone:"/Task-2-adv/IconeBenefit1.png",
+    icone:"/Task-3-adv/IconeBenefit1.png",
     title:"Holistic Learning Approach",
     description:"Our curriculum focuses on nurturing cognitive, social, emotional, and physical development, ensuring a well-rounded education."
   },
   {
-    icone:"/Task-2-adv/IconeBenefit2.png",
+    icone:"/Task-3-adv/IconeBenefit2.png",
     title:"Experienced Educators",
     description:"Our passionate and qualified teachers create a supportive and stimulating learning environment."
   },
   {
-    icone:"/Task-2-adv/IconeBenefit3.png",
+    icone:"/Task-3-adv/IconeBenefit3.png",
     title:"Nurturing Environment",
     description:"We prioritize safety and provide a warm and caring atmosphere for every child."
   },
   {
-    icone:"/Task-2-adv/IconeBenefit4.png",
+    icone:"/Task-3-adv/IconeBenefit4.png",
     title:"Play-Based Learning",
     description:"We believe in the power of play to foster creativity, problem-solving skills, and imagination."
   },
   {
-    icone:"/Task-2-adv/IconeBenefit5.png",
+    icone:"/Task-3-adv/IconeBenefit5.png",
     title:"Individualized Attention",
     description:"Our small class sizes enable personalized attention, catering to each child's unique needs."
   },
   {
-    icone:"/Task-2-adv/IconeBenefit6.png",
+    icone:"/Task-3-adv/IconeBenefit6.png",
     title:"Parent Involvement",
     description:"We foster a strong parent-school partnership to ensure seamless communication and collaboration."
   },
