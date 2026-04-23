@@ -1,5 +1,5 @@
 import styles from "./Team.module.css"
-import React from 'react'
+
 interface TeamCardProps {
     image: string;
     name: string;

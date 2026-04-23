@@ -1,5 +1,4 @@
 import BenefitsSection from "../Components/Benefits/BenefitsSection"
-import FooterSection from "../Components/Contact/FooterSection"
 import FrequentlySection from "../Components/FrequentlyAsked/FrequentlySection"
 import HeroSection from "../Components/Hero/HeroSection"
 import NavigateSection from "../Components/NavigateOurPage/NavigateSection"

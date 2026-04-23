@@ -4,7 +4,6 @@ import './index.css'
 import Root from './Root.tsx'
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import HomePage from './Pages/HomePage.tsx'
-import TestimonialsSection from './Components/Testimonials/TestimonialsSection.tsx'
 import AboutPage from './Pages/AboutPage.tsx'
 import Academics from './Pages/Academics.tsx'
 

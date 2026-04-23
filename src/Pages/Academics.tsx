@@ -1,4 +1,4 @@
-import React from 'react'
+
 import AboutHero from '../Components/AboutHero/AboutHero'
 import FeatureSection from '../Components/AcademicsFeature/FeatureSection'
 import CoursesSection from '../Components/AcademicsCourses/CoursesSection'
