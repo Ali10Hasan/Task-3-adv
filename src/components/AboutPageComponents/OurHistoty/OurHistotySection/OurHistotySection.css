@@ -1,0 +1,25 @@
+.our-history {
+  background-color: var(--color-white);
+  box-shadow: var(--shadow-black);
+  border-radius: var(--border-radius-main);
+  border: var(--color-border) var(--border-width-main) solid;
+  padding: 150px;
+  padding-left: 234px;
+  margin-top: 100px;
+}
+
+@media (max-width:1440px) {
+  .our-history {
+    padding: 100px;
+    padding-left: 173px;
+    margin-top: 80px;
+  }
+}
+
+@media (max-width:992px) {
+  .our-history {
+    padding: 50px 20px 0px 54px;
+    margin-top: 80px;
+  }
+}
+

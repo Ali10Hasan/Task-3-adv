@@ -1,0 +1,38 @@
+.our-awards-section .slider-track__Dynamic {
+  padding: 50px 0;
+
+  .base-card {
+    height: 402px;
+  }
+}
+
+.our-awards-section .section-header {
+  margin-bottom: 87px;
+}
+
+.our-awards-section .section-header__description {
+  max-width: 1196px;
+}
+
+.our-awards-section .slider-controls__Dynamic {
+  flex-direction: row-reverse;
+  align-items: center;
+
+
+  h3.other,
+  h3.other::after {
+    content: " More Awards";
+    font-family: Raleway;
+font-weight: 700;
+font-size: 22px;
+line-height: 130%;
+
+
+  }
+}
+
+@media (max-width:992px) {
+  .our-awards-section .slider-item__Dynamic {
+padding: 0 15px 0 0;
+}
+}

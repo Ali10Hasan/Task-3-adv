@@ -1,0 +1,139 @@
+.member-card {
+  padding: 50px;
+  border: var(--border-width-main) var(--color-border) solid;
+  border-radius: var(--border-radius-main);
+  box-shadow: var(--shadow-black);
+  transition: var(--transition-slow);
+  height: 100%;
+  background-color: var(--color-white);
+}
+
+.member-card:hover {
+  box-shadow: 8px 8px 0px 1px var(--color-orange);
+
+}
+
+.member-card__header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.member-card__header__name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.member-card__header__name h3 {
+  color: var(--color-title-text);
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 150%;
+
+}
+
+.member-card__header__envlope {
+  width: 56px;
+  height: 56px;
+  background-color: var(--color-primary-light);
+  border-radius: var(--border-radius-main);
+  border: var(--border-width-main) var(--color-border) solid;
+}
+
+.member-card__about {
+  background-color: var(--color-bg-light);
+  padding: 30px;
+  border-radius: var(--border-radius-main);
+  border: var(--color-border) var(--border-width-main) solid;
+  color: var(--color-title-text);
+  line-height: 150%;
+
+}
+
+.member-card__about h3 {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 20px;
+  line-height: 150%;
+
+}
+
+.member-card__about p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+
+}
+
+@media (max-width:1440px) {
+  .member-card {
+    padding: 40px;
+  }
+
+  .member-card__header {
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+
+  .member-card__header__img img {
+    width: 80px;
+  }
+
+  .member-card__header__name h3 {
+    font-size: 24px;
+
+  }
+
+  .member-card__about {
+    padding: 24px;
+  }
+
+  .member-card__about h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .member-card__about p {
+    font-size: 16px;
+
+  }
+}
+
+
+@media (max-width:992px) {
+  .member-card {
+    padding: 30px;
+  }
+
+  .member-card__header {
+    gap: 10px;
+  }
+
+  .member-card__header__img img {
+    width: 60px;
+  }
+
+  .member-card__header__name h3 {
+    font-size: 20px;
+
+  }
+
+  .member-card__about {
+    padding: 20px;
+
+  }
+
+  .member-card__about h3 {
+    margin-bottom: 12px;
+
+  }
+
+  .member-card__header__envlope {
+    width: 48px;
+    height: 48px;
+  }
+}

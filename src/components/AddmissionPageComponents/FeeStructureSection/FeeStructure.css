@@ -1,0 +1,159 @@
+.grid-container {
+  background-color: var(--color-white);
+  border: var(--border-width-main) var(--color-border) solid;
+  border-radius: var(--border-radius-main);
+  padding: 60px;
+  box-shadow: var(--shadow-black);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 100px;
+overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.grid-container:last-of-type {
+  margin-top: 80px;
+}
+
+.main-fees-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(200px, 1fr));
+}
+
+
+.grid-header {
+  background-color: var(--color-light);
+  border: var(--border-width-main) var(--color-border) solid;
+  border-radius: var(--border-radius-main);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.grid-header div {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 34px;
+}
+
+.grid-header div:not(:first-child) {
+  border-left: var(--border-width-main) var(--color-border) solid;
+
+}
+
+.grid-row {
+  border: var(--border-width-main) var(--color-border) solid;
+  border-top: none;
+  height: 80px;
+}
+
+.grid-row div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+
+  color: var(--color-text);
+}
+
+.grid-row div:not(:first-child) {
+  border-left: var(--border-width-main) var(--color-border) solid;
+
+}
+
+.grid-row:first-child {
+  border-top: var(--border-width-main) solid var(--color-border);
+  border-radius: 12px 12px 0 0;
+}
+
+.grid-row:last-child {
+  border-radius: 0 0 12px 12px;
+}
+
+.additional-title-card {
+  background-color: var(--color-orange-pale);
+  border: var(--border-width-main) var(--color-border) solid;
+  border-radius: var(--border-radius-main);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  color: var(--color-text-primary);
+  background-color: var(--color-light);
+  padding: 20px 34px;
+}
+
+.secondary-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+
+@media (max-width:1440px) {
+  .grid-container {
+    padding: 50px;
+    margin-top: 80px;
+
+  }
+
+  .grid-container:last-of-type {
+    margin-top: 60px;
+  }
+
+  .grid-header {
+    font-size: 18px;
+  }
+
+  .grid-header div {
+    height: 63px;
+    padding-left: 30px;
+    min-width: 263px;
+  }
+
+  .grid-row {
+    height: 75px;
+  }
+
+  .grid-row div {
+    padding-left: 30px;
+    font-size: 18px;
+    min-width: 263px;
+  }
+
+
+  .additional-title-card {
+    font-size: 24px;
+    padding: 18px 30px;
+  }
+}
+
+
+
+@media (max-width: 992px) {
+  .grid-container {
+    padding: 20px;
+  }
+
+  .main-fees-grid {
+    min-width: 900px;
+  }
+
+  .secondary-grid {
+    min-width: 500px;
+  }
+
+  .grid-row div, .grid-header div {
+    white-space: nowrap;
+  }
+  .grid-row div {
+    padding-left:24px ;
+  }
+}

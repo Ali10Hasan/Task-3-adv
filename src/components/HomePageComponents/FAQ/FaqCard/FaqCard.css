@@ -1,0 +1,111 @@
+.faq-card {
+  background-color: var(--color-light);
+  padding: 37.5px 40px;
+  height: 115px;
+  border: var(--border-width-main) var(--color-border) solid;
+  border-radius: var(--border-radius-main);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.faq-card.active {
+  background-color: var(--color-white);
+  padding: 40px;
+  min-height: 270px;
+  transform: scale(1.02) translateY(-5px);
+}
+
+
+.faq-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.faq-card__question {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  color: var(--color-text);
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  max-width: 621px;
+}
+
+.faq-card.active .faq-card__question {
+  border-bottom: var(--border-width-main) var(--color-border) solid;
+  transition: var(--transition-fast);
+}
+
+.faq-card.active:hover .faq-card__question {
+  border-bottom: var(--color-orange) var(--border-width-main) solid;
+}
+
+
+.faq-card__btn {
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-bg-light);
+  border: var(--border-width-main) var(--color-border) solid;
+  border-radius: var(--border-radius-main);
+
+}
+
+.faq-card__answer {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--color-title-text);
+}
+
+
+@media (max-width:1440px) {
+  .faq-card {
+    padding: 26.5px 30px;
+    min-height: 80px;
+  }
+
+  .faq-card.active {
+    padding: 34px 30px;
+    height: 207px;
+  }
+
+
+  .faq-card__question {
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    max-width: 621px;
+  }
+
+  .faq-card__btn {
+    width: 32px;
+    height: 32px;
+  }
+
+  .faq-card__answer {
+    font-size: 16px;
+  }
+}
+
+
+
+@media (max-width:992px) {
+  .faq-card {
+    padding: 20px 24px;
+    min-height: 80px;
+  }
+
+  .faq-card.active {
+    padding: 30px 24px;
+    min-height: 300px;
+  }
+
+  .faq-card__question {
+    max-width: 258px;
+  }
+
+  .faq-card.active .faq-card__question {
+    max-width: 268px;
+  }
+
+}

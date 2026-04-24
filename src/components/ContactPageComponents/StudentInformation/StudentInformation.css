@@ -1,0 +1,211 @@
+.contact-container {
+  background-color: var(--color-white);
+  padding: 173px 100px;
+  box-shadow: var(--shadow-black);
+  border: var(--border-width-main) var(--color-border) solid;
+  border-radius: var(--border-radius-main);
+  margin-top: 137px;
+
+}
+
+.social-tabs {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  display: flex;
+  gap: 20px;
+  transform: translate(-50%, -50%);
+
+}
+
+.social-tab-item {
+  width: 154px;
+  height: 74px;
+  background-color: var(--color-primary-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: var(--border-width-main) var(--color-border) solid;
+  border-radius: var(--border-radius-main);
+
+}
+
+.input-group label {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  color: var(--color-text-description);
+}
+
+
+
+.input-group input,
+.input-group textarea,
+.custom-select {
+  padding: 30px;
+  background-color: var(--color-bg-card);
+  border: var(--border-width-main) var(--color-border) solid;
+  border-radius: var(--border-radius-small);
+  width: 100%;
+  margin-top: 20px;
+}
+
+.input-group textarea {
+  min-height: 218px;
+}
+
+.input-group input,
+.custom-select {
+  height: 90px;
+
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+  border-color: #FFB489;
+}
+
+textarea::placeholder,
+.input-group input::placeholder,
+select::placeholder {
+  font-family: Outfit;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: var(--color-text-description);
+}
+
+
+.contact-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+.input-group.full-width {
+  grid-column: span 2;
+
+}
+
+.submit-btn {
+  padding: 30px;
+  background-color: var(--color-orange-light);
+  border: var(--border-width-main) var(--color-border) solid;
+  border-radius: var(--border-radius-small);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: var(--color-text);
+  grid-column: span 2;
+  font-family: "Outfit", sans-serif;
+  cursor: pointer;
+}
+
+.custom-select {
+  appearance: none;
+  background-repeat: no-repeat;
+  background-position: right 30px center;
+  background-size: 30px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--color-text-description);
+  font-family: "Outfit", sans-serif;
+  ;
+}
+
+
+@media (max-width:1440px) {
+  .contact-container {
+    padding: 100px 80px;
+    margin-top: 100px;
+
+  }
+
+  .social-tab-item {
+    width: 126px;
+    height: 58px;
+  }
+
+  .input-group label {
+    font-size: 20px;
+  }
+
+  .input-group input::placeholder {
+    font-size: 16px;
+
+  }
+
+  .input-group input,
+  .custom-select {
+    padding: 24px;
+    margin-top: 14px;
+    height: 72px;
+  }
+
+  .input-group textarea {
+    min-height: 161px;
+    padding: 24px;
+  }
+
+  textarea::placeholder {
+    font-size: 16px;
+  }
+
+  .contact-form-grid {
+    gap: 40px;
+  }
+
+  .submit-btn {
+    padding: 24px;
+    font-size: 20px;
+
+  }
+
+  .custom-select {
+    font-size: 16px;
+  }
+
+}
+
+
+
+@media (max-width:992px) {
+  .contact-container {
+    padding: 80px 30px 30px;
+    margin-top: 71px;
+
+  }
+
+  .social-tab-item {
+    width: 74px;
+    height: 58px;
+  }
+
+  .input-group {
+    grid-column: span 2;
+  }
+
+  .input-group input,
+  .custom-select {
+    padding: 20px;
+    margin-top: 10px;
+    height: 64px;
+    font-size: 16px;
+
+  }
+
+  .input-group textarea {
+    padding: 20px;
+  }
+
+  .submit-btn {
+    padding: 16px;
+    font-size: 18px;
+
+  }
+
+}

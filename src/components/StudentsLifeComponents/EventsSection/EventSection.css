@@ -1,0 +1,20 @@
+.shared-card.event__background {
+  position: relative;
+  z-index: 5;
+  overflow: hidden;
+
+}
+
+.shared-card.event__background::before {
+    content: "";
+  width: 16%;
+  height: 100%;
+  transform: rotate(90deg) translateX(-50%);
+  background-color: var(--color-light);
+  position: absolute;
+  top: -2px;
+  z-index: -1;
+  border: var(--border-width-main) var(--color-border) solid;
+  border-radius: 0px 0px 12px 12px;
+}
+

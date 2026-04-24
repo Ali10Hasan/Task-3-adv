@@ -1,0 +1,30 @@
+.shared-card.learn__background {
+  position: relative;
+  z-index: 5;
+}
+
+.shared-card.learn__background::before {
+  content: "";
+  width: 25%;
+height: 67%;
+background-color: var(--color-light);
+position: absolute;
+top: -2px;
+z-index: -1;
+  border: var(--border-width-main) var(--color-border) solid;
+  border-radius: 0px 0px 12px 12px ;
+}
+
+.alt-gap .grid {
+  gap: 50px;
+}
+
+@media (max-width:1440px) {
+  .alt-gap .grid {
+    gap: 40px;
+  }
+}
+
+
+
+

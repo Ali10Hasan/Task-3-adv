@@ -1,0 +1,21 @@
+.addmission-process {
+  margin-top: 283px;
+  gap: 283px 50px;
+}
+
+
+@media (max-width:1440px) {
+  .addmission-process {
+  margin-top: 208px;
+    gap: 208px 40px;
+}
+
+}
+
+@media (max-width:992px) {
+  .addmission-process {
+  margin-top: 173px;
+  gap: 176px;
+}
+
+}

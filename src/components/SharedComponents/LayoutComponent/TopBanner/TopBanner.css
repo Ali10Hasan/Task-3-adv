@@ -1,0 +1,122 @@
+.TopBanner {
+  padding: 14px;
+  margin: 18px 0 14px;
+  background-color: var(--color-primary-light);
+  border: var(--border-width-main) var(--color-border) solid;
+  border-radius: var(--border-radius-small);
+  overflow: hidden;
+}
+
+.TopBannerContent {
+  gap: 14px;
+  line-height: 150%;
+  font-size: 20px;
+  color: var(--color-text);
+  font-weight: 500;
+  z-index: 3;
+  transition: var(--transition-fast);
+}
+
+.top-banner-icon img {
+  width: 18px;
+  height: 21px;
+}
+
+.TopBanner:hover .top-banner-icon {
+  transform: translateX(10px) scale(1.5);
+  transition: var(--transition-slow);
+}
+
+.bottom-vector {
+  left: 69%;
+  bottom: -5px;
+  transform: translateX(50%);
+  z-index: 1;
+
+}
+
+.top-vector {
+  right: 71%;
+  transform: translateX(-50%);
+  top: 0;
+  z-index: 1;
+}
+
+.right-vector {
+  right: 0;
+  top: 0;
+  z-index: 0;
+
+}
+
+.left-vector {
+  left: 0;
+  top: 0;
+  z-index: 0;
+
+}
+
+
+@media (max-width:1440px) {
+  .TopBanner {
+    padding: 12px 0;
+    margin: 16px 0;
+  }
+
+  .TopBannerContent {
+    font-size: 16px;
+  }
+
+  .top-banner-icon img {
+    width: 14.5px;
+    height: 17px;
+  }
+
+  .bottom-vector {
+    bottom: -10px;
+  }
+
+  .top-vector {
+    top: -15px;
+  }
+}
+
+@media (max-width:992px) {
+  .TopBanner {
+    padding: 12px 0;
+    margin: 40px 0 14px;
+  }
+
+  .TopBannerContent {
+    gap: 10px;
+    font-size: 14px;
+  }
+
+  .top-banner-icon img {
+    width: 12px;
+    height: 14px;
+  }
+
+  .bottom-vector {
+    left: 86%;
+    bottom: -8px;
+    transform: translateX(50%);
+  }
+
+  .top-vector {
+    left: 30px;
+    top: -8px;
+    width: 39px;
+    height: 28px;
+
+  }
+
+  .right-vector {
+    right: -125px;
+  }
+
+  .left-vector {
+    left: -125px;
+    top: 0;
+  }
+}

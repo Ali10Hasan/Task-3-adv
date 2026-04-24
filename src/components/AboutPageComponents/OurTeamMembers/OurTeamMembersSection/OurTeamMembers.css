@@ -1,0 +1,9 @@
+.team-members-header .section-header__description {
+  max-width: 1096px;
+}
+
+@media (max-width:1440px) {
+  .team-members-header .section-header__description {
+    max-width: 880px;
+  }
+}
