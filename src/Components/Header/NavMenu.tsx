@@ -23,7 +23,7 @@ const NavMenu = ({ logo, NavElemnets }: NavMenuProps) => {
         <div className={`${styles.NavElemnts} ${show ? styles.Show : ""}`}>
           <ul>
             {NavElemnets.map((item, index) => {
-              return <li key={index}> <NavLink to={item.path}  className={({isActive})=>`${isActive?styles.active:""}`}>{item.content}</NavLink></li>;
+              return <li key={index}> <NavLink to={item.path}  className={({isActive})=>`${isActive?styles.active:""}`} onClick={()=>setShow(false)}>{item.content}</NavLink></li>;
             })}
           </ul>
         </div>

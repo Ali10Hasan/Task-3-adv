@@ -224,12 +224,13 @@ span{
 
   .StatsCardContainer {
     padding: 16px 10px;
+    width: 93%;
   }
 
   .StatsContainer {
-    flex: 1 1 100%;
     text-align: center;
     padding: 8px 10px;
+    
   }
 
   .DigitalStats {
